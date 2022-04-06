@@ -1,14 +1,6 @@
-<div class="headhov">
-    <div class="animated count pulse" id="header" onclick="location.href='https://bvnsupport-jailbreak.github.io'">
-
-    </div>
-</div>
-
     <div class="filter animated fadeInUp" id="repotitle">
-        BVN Repository
-    </div>
+       Nguyễn khương Duy
 
-    <div class="filter animated fadeInUp" id="repodesc">
 <h1 align="center">Hi 👋, I'm Nguyễn Khương Duy>
 <p align="center"><img src="https://img.icons8.com/color/48/000000/vietnam-circular.png"/></p>
 <h3 align="center">A passionate developer from Vietnam </h3>
