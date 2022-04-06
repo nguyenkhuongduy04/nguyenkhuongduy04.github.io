@@ -120,3 +120,117 @@ Chọn một trình quản lý gói để thêm kho lưu trữ này vào nó:
 
 <center>
 <img class="filter" src="./assets/arrow.png" width="100px">
+
+<h1 class="filter">KHO LƯU TRỮ IPA</h1>
+</center>
+
+<center>
+<div style="margin-top: 80px; margin-bottom: 60px; margin-right: 35px" class="row">
+<hr width="220px" class="filter hr2">
+</div>
+<div style="margin-top: 80px; margin-bottom: 60px" class="filter row">
+<img src="./assets/cardbox.png" width="100px">
+</div>
+<div style="margin-top: 80px; margin-bottom: 60px; margin-left: 35px" class="row">
+<hr width="220px" class="filter hr2">
+</div>
+</center>
+<div class="packages" id="packages">
+
+</div>
+		<div class="card-body">
+		  <p class="card-text">Nhấp vào bên dưới để tải</p>
+			<a class="btn btn-xs btn-primary" href="https://drive.google.com/file/d/1k9zHqSZRrMIhjD1l_1lfG7Bfnj0cXUnv/view?usp=drivesdk"> IPA Facebook Wolf_V355</a>
+          <a class="btn btn-xs btn-primary" href="https://drive.google.com/file/d/1gHwFK-w_PuGkV0vhY7uhZIWxtew0YqUF/view?usp=drivesdk">Youtube Uyou 2.1</a>
+          <a class="btn btn-xs btn-primary" href="https://drive.google.com/file/d/1BzTQr4UVc_K8B5NnUnWIW57lFCQkdiYg/view?usp=drivesdk"> Mesenger Shark_348</a> 
+            <a class="btn btn-xs btn-primary" href="https://drive.google.com/file/d/16A4woDF5703bE131vCYoAkw0vNWD3XJB/view">Appcake No Ads</a>  
+             <a class="btn btn-xs btn-primary" href="https://drive.google.com/file/d/1UggKDtFw1HFmT09e1zussUxCtROfW6a5/view?usp=drivesdk">Zalo2_210902</a>  
+              <a class="btn btn-xs btn-primary" href="https://routinehub.co/shortcut/10236/?fbclid=IwAR3zmEPihb0M_PguwbHobWSTnTlNR7Jer0F1zAvxvVK5D1fgVOpstSPhnNE">Phím Tắt Tải Video TikTok Không có Logo</a> 
+              <a class="btn btn-xs btn-primary" href="https://drive.google.com/file/d/1Fjn0b6dZ8wIFebm6j1TiT10TJxFhrjUm/view?usp=drivesdk">Ứng dụng xem Phim Hdo Player</a>  
+		</div>
+<br>
+<center>
+<img src="./assets/tag.png" style="width: 100px; height: 100px" class="filter animated fadeInUp">
+</center>
+<br>
+
+    <div style="margin-left: 30px; margin-right: 30px" class="filter animated fadeInUp" id="clickto">
+THEO DÕI TÔI TRÊN MẠNG XÃ HỘI:
+    </div>
+
+<div style="margin-top: 60px; margin-bottom: 90px; class="animated fadeIn2">
+
+<center>
+<div style="margin-top: 30px; margin-bottom: 25px; margin-left: 25px; margin-right: 40px" class="row zoom animated swirlcydia">
+ <div class="cydiablur zoom">
+  <div class="cydiablur-inside">
+    <img onclick="location.href='https://m.facebook.com/share#?source=https://www.facebook.com/SUPPORT.BVN.VN/';" src="./assets/facebook.png" style="width: 125px; height: 125px" class="filter">
+  </div>
+ </div>
+<div class="filter animated fadecydia" id="caption">Facebook</div>
+</div>
+
+<div style="margin-top: 25px; margin-bottom: 25px; margin-left: 40px; margin-right: 40px" class="row zoom animated swirlsileo">
+ <div class="sileoblur zoom">
+  <div class="sileoblur-inside">
+    <img onclick="location.href='https://www.facebook.com/groups/3752444134882121/';" src="./assets/Group.png" style="width: 125px; height: 125px" class="filter">
+  </div>
+ </div>
+<div class="filter animated fadesileo" id="caption">Group facebook</div>
+</div>
+
+<div style="margin-top: 25px; margin-bottom: 25px; margin-left: 40px; margin-right: 40px" class="row zoom animated swirlzebra">
+ <div class="zebrablur zoom">
+  <div class="zebrablur-inside">
+    <img onclick="location.href='https://m.facebook.com/repocydiaBVN/';" src="./assets/fanpage.png" style="width: 125px; height: 125px" class="filter">
+  </div>
+ </div>
+<div class="filter animated fadezebra" id="caption">Fanpage Facebook</div>
+</div>
+
+<div style="margin-top: 25px; margin-bottom: 25px; margin-left: 40px; margin-right: 25px" class="row zoom animated swirlinstaller">
+ <div class="installerblur zoom">
+  <div class="installerblur-inside">
+    <img onclick="location.href='https://www.paypal.com/paypalme/repocydiaBVN/';" src="./assets/paypal.png" style="width: 125px; height: 125px" class="filter">
+  </div>
+ </div>
+<div class="filter animated fadeinstaller" id="caption">Paypal</div>
+</div>
+<div style="margin-top: 25px; margin-bottom: 25px; margin-left: 40px; margin-right: 25px" class="row zoom animated swirlinstaller">
+ <div class="installerblur zoom">
+  <div class="installerblur-inside">
+    <img onclick="location.href='https://youtu.be/xvBwBJkjc8s';" src="./assets/youtube.png" style="width: 125px; height: 125px" class="filter">
+  </div>
+</div>
+</div>
+<div class="filter animated fadeinstaller" id="caption">Youtube</div>
+</center>
+</div>
+<br>
+<br>
+
+<div class="animated fadeInUp" id="cardbox">
+<div class="packages" id="packages">
+<br>
+<br>
+	<hr class="filter hr1">
+<br>
+<center><img class="imageleft" src="./assets/bvn.png" style="border-radius: 4%;" width="98%"></center>
+
+<br>
+<br>
+
+<div style="margin-bottom: 68px"></div>
+
+</div>
+</div>
+
+</center>
+
+<div class="animated fadeInUp" id="bottomnavnar">
+<br>
+<div>Trang web được phát triển bởi BIỆN VĂN NHẬT ©  2020-2022</div>
+</div>
+
+</body>
+</html>
