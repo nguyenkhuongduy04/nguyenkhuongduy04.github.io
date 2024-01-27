@@ -23,7 +23,7 @@ body {
 }
 .container {
 	width: 363px;
-	height: 598px;
+	height: 698px;
 	background-color: var(--container-bg-color);
 	position: relative;
 	overflow: hidden;
