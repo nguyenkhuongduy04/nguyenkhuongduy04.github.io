@@ -1,66 +1,69 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Kolker+Brush&family=Mali:ital,wght@1,500&family=Ole&family=Quicksand:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap'); 
+}
+html{
+  font-family: Poppins;
+  color: #f0f0f0;
+}
+body{
+  min-height: 100vh;
+  background: #0b0d15;
+  color: #a2a5b3;
+  align-content: center;
+}
 
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-:root {
-	--main-color: #9933FF;
-	--body-bg-color: #23242a;
-	--container-bg-color: #1c1c1c;
-	--box-bg-color: #28292d;
-}
-body {
-	min-height: 0vh;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	font-family: sans-serif;
-	background-color: var(--body-bg-color);
-  border-radius: 8px;
-
-}
-.container {
-	width: 363px;
+.card{
+  margin: 0 auto;
+  width: 363px;
 	height: 668px;
-	background-color: var(--container-bg-color);
-	position: relative;
-	overflow: hidden;
-  border-radius: 8px;
+  background: #1c1f2b;
+  text-align: center;
+  border-radius: 10px;
+  position: relative;
 }
-.container::before {
-	content: '';
-	background-image: linear-gradient(to right, transparent, #3399CC);
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	left: -50%;
-	top: -50%;
-	transform-origin: bottom right;
-	animation: animate 6s linear infinite;
-    border-radius: 8px;
-}
-.container::after {
-	content: '';
-	background-image: linear-gradient(to left, transparent, var(--main-color));
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	bottom: -50%;
-	right: -50%;
-	transform-origin: top left;
-	animation: animate 6s linear infinite;
-  border-radius: 8px;
 
+@property --angle{
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
 }
-@keyframes animate {
-	0% {
-		transform: rotate(0deg);
-	}
-	100% {
-		transform: rotate(360deg);
-	}
+
+.card::after, .card::before{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: conic-gradient(from var(--angle), #ff4545, #00ff99, #006aff, #ff0095, #ff4545);
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  z-index: -1;
+  padding: 3px;
+  border-radius: 10px;
+  animation: 3s spin linear infinite;
+}
+.card::before{
+  filter: blur(1.5rem);
+  opacity: 0.5;
+}
+@keyframes spin{
+  from{
+    --angle: 0deg;
+  }
+  to{
+    --angle: 360deg;
+  }
+}
+.box {
+	weigh:100%;
+        height:99%;
+        left: 0.55%;
+	top: 0.55%;
+	position: absolute;
+	inset: 3px;
+	background-color: var(--box-bg-color);
+	z-index: 1;
+	padding: 60px 40px ;
+        border-radius: 8px;
 }
 .box {
 	weigh:100%;
@@ -98,9 +101,9 @@ font-family: 'Quicksand', sans-serif;
      font-size: 8px;
 }
 .desc{
-  font-size: 25px;
+  font-size: 15px;
   color: #ffbcd9;
-	font-family: 'Kolker Brush', cursive;
+	font-family: 'Merienda', cursive;
 
 }
 
@@ -192,7 +195,7 @@ font-size:12px
 text-decoration: none
 }
 document.querySelectorAll('.heart, .heart-button').forEach(button => button.addEventListener('click', e => button.classList.toggle('active')));
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -292,8 +295,45 @@ a span:nth-child(4){
     }
 }
 
+.container {
+margin: 0 auto;
+  width: 363px;
+	height: 668px;
+  background: #1c1f2b;
+  text-align: center;
+  border-radius: 10px;
 
+}
 
+@property --angle{
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+.container::after, .card::before{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: conic-gradient(from var(--angle), #ff4545, #00ff99, #006aff, #ff0095, #ff4545);
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  z-index: -1;
+  padding: 3px;
+  border-radius: 10px;
+  animation: 3s spin linear infinite;
 
-
-
+}
+.container::before{
+  filter: blur(1.5rem);
+  opacity: 0.5;
+}
+@keyframes spin{
+  from{
+    --angle: 0deg;
+  }
+  to{
+    --angle: 360deg;
+  }
+}
