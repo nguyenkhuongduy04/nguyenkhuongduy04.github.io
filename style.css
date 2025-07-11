@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap'); 
-@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Fleur+De+Leah&family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Dongle&family=Fleur+De+Leah&family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=National+Park:wght@200..800&display=swap');
 }
 html{
   font-family: Poppins;
@@ -112,7 +110,7 @@ font-family: 'MuseoModerno', sans-serif;
 .location {
   margin: 10px 0;
   color: #6C72CB ;
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'National Park', sans-serif;
 }
 
 .icons{
