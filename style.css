@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Dongle&family=Fleur+De+Leah&family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=National+Park:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dongle&family=Fleur+De+Leah&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=National+Park:wght@200..800&display=swap');
 }
 html{
   font-family: Poppins;
@@ -93,7 +93,7 @@ body{
   margin-top:10px;
   margin-bottom:0;
   text-align:center;
-font-family: 'MuseoModerno', sans-serif;
+font-family: 'Chakra Petch', sans-serif;
 
 }
 .a fa-check-circle{
@@ -170,7 +170,7 @@ ii{
 }
 .bio{
   text-align:center;
-font-family: 'Comfortaa', cursive;
+font-family: 'MuseoModerno', cursive;
 font-size:12px
 }
 .card-footer{
@@ -202,7 +202,7 @@ document.querySelectorAll('.heart, .heart-button').forEach(button => button.addE
     box-sizing: border-box;
 }
 
-a{
+ab{
     position: relative;
     display: inline-block;
     padding: 20px 25px;
@@ -218,14 +218,14 @@ a{
 }
 
 
-a:nth-child(2){
+ab:nth-child(2){
     filter: hue-rotate(110deg);
 }
-a span{
+ab span{
     position: absolute;
     display: block;
 }
-a span:nth-child(1){
+ab span:nth-child(1){
     top: 0;
     left: 0;
     width: 100%;
@@ -241,7 +241,7 @@ a span:nth-child(1){
         left: 100%;
     }
 }
-a span:nth-child(2){
+ab span:nth-child(2){
     top: -100%;
     right: 0;
     width: 2px;
@@ -258,7 +258,7 @@ a span:nth-child(2){
         top: 100%;
     }
 }
-a span:nth-child(3){
+ab span:nth-child(3){
     bottom: 0;
     right: 0;
     width: 100%;
@@ -277,7 +277,7 @@ a span:nth-child(3){
 }
 
 
-a span:nth-child(4){
+ab span:nth-child(4){
     bottom: -100%;
     left: 0;
     width: 2px;
@@ -337,3 +337,28 @@ margin: 0 auto;
     --angle: 360deg;
   }
 }
+
+
+  a {
+            padding: 1rem 1.5rem;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 1rem;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+            font-family: 'MuseoModerno', cursive;
+        }
+  .neon-pulse {
+            background: transparent;
+            border: 2px solid #f0abfc;
+            color: #f0abfc;
+            animation: neon-pulse 2s infinite;
+        }
+
+        @keyframes neon-pulse {
+            0% { box-shadow: 0 0 5px #f0abfc, 0 0 10px #f0abfc, 0 0 15px #f0abfc; }
+            50% { box-shadow: 0 0 15px #f0abfc, 0 0 25px #f0abfc, 0 0 35px #f0abfc; }
+            100% { box-shadow: 0 0 5px #f0abfc, 0 0 10px #f0abfc, 0 0 15px #f0abfc; }
+        }
