@@ -13,8 +13,8 @@ body{
 
 .card{
   margin: 0 auto;
-  width: 363px;
-	height: 668px;
+  width: 413px;
+	height: 718px;
   background: #1c1f2b;
   text-align: center;
   border-radius: 10px;
@@ -101,8 +101,8 @@ font-family: 'Chakra Petch', sans-serif;
      font-size: 8px;
 }
 .desc{
-  font-size: 15px;
-  color: #ffbcd9;
+  font-size: 19px;
+  color: #33FFCC;
 	font-family: 'Fleur De Leah', cursive;
 
 }
@@ -120,7 +120,7 @@ font-family: 'Chakra Petch', sans-serif;
 }
 
 .icons a{
-  color: #f2f2f2;
+  color: #33FFCC;
   width: 56px;
   font-size: 22px;
   transition: .3s linear;
