@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dongle&family=Fleur+De+Leah&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=National+Park:wght@200..800&display=swap');
-}
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Fleur+De+Leah&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap');}
 html{
   font-family: Poppins;
   color: #f0f0f0;
@@ -110,7 +109,7 @@ font-family: 'Chakra Petch', sans-serif;
 .location {
   margin: 10px 0;
   color: #6C72CB ;
-	font-family: 'National Park', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 .icons{
